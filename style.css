@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	padding: 50px 100px;
+	font-size: 13px;
+	font-style: Verdana, Tahoma, sans-serif;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color: #474E69;
+}
+
+
+input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #474E69; 
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #f0f0f0
+}
+h1{
+	text-align:center;
+	font-size:180%;
+	line-height:120%;
+	padding: 5% 0;
+}
+h2{
+	text-decoration:underline;
+	line-height: 280%;
+	padding-left:2%;
+}
+h3{
+	line-height:110%;
+	padding: 5% 0;
+}
+p{
+	padding: 1%;
+	font-size: 17px;
+}
+img{
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+	
+}
+header{
+	background: #FF0000;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+nav ul{
+	background-color: #000000;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	-webkit-transition: max-hight 0.4s;
+	-ms-transition: max-hight 0.4s;
+	-moz-transition: max-hight 0.4s;
+	-o-transition: max-hight 0.4s;
+	transition: max-hight 0.4s;
+	
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+. current{
+color:#FFF;
+text-decoration:underline;
+}
+nav ul li:hover{
+text-decoration: underline;
+background-color: #000000;
+}
+section{
+	line-height: 1.5em;
+	font-size: 0.9em;
+	padding: 40px;
+	width: 75%;
+	margin: 0 auto;
+}
+.handle{
+	width:100%;
+	background: #000000;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: white;
+	display:none;
+}
+
+#doc{
+	margin: 40px 0;
+}
+#content{
+	margin: 0 auto;
+	max-width: 1140px;
+	margin-top: 110px;
+}
+.blueberry{
+	max-width: 960px;
+	margin-top: 110px;
+}
+section{
+	width: 23%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+.clear{
+	clear:both
+}
+article{
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	padding: 4%;
+}
+aside{
+	float: right;
+	margin: 0 auto;
+	width: 35%;
+	height: auto;
+	padding: 3%;
+}
+footer{
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90%;
+}
+footer p, footer h3{
+	color: #FFF;
+}
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+ul.social li{
+	display: inline;
+}
+ul.social li img{
+	height: 50px;
+}
+footer.second {
+	border-top: 1px solid #4D4E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+
+
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.blueberry .pager li.active a span { background: #404040; }
+
+@media screen and (max-width: 480px){
+	nav ul{
+		max-height: 0;
+	}
+	.showing{
+		max-height: 20em;
+	}
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		text-align: left;
+		}
+		.handle{
+		display:block;
+		}
+}
+

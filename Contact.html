@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>The Arsenal Hub</title>
+<meta name="viewport"="width=divice-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css"  />
+<link rel="shortcut icon" href="icon.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<style type="text/css">
+
+</style>
+
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="logo.png" alt="logo" /></a>
+
+	</header>
+	<nav>
+		<ul>
+			<a href="index.html"><li>Home</li></a>
+			<a href="Squad.html"><li>Squad</li></a>
+			<a href="Fixtures.html"><li>Fixtures</li></a>
+			<a href="Contact.html"><li>Contact</li></a>
+		</ul>
+		<div class="handle">Menu</div>
+	</nav>
+	
+	<h2>Contact Form</h2>
+	
+	<form class="form">
+		<form action="mail.php" method="POST">
+		<p class="name">
+			<input type="text" name="name" id="name" placeholder="Your name" />
+			<label for="name">Name</label>
+		</p>
+		
+		<p class="email">
+			<input type="text" name="email" id="email" placeholder="mail@example.com" />
+			<label for="email">Email</label>
+		</p>
+	
+		<p class="text">
+			<textarea name="text" placeholder="Write something to us" /></textarea>
+		</p>
+		
+		<p class="submit">
+			<input type="submit" value="Send" />
+		</p>
+	</form>
+	<footer>
+		<section>
+			<h3><b>Arsenal Football Club</b></h3>
+			<p><b> +44 20 7619 5003</b><br></br>
+			Arsenal Football Club<br>
+			Highbury House<br>
+			75 Drayton Park<br>
+			LONDON<br>
+			N5 1BU</p>
+		</section>
+		<section>
+			<h3> Connect With Us!</h3>
+			<ul class="social">
+				<li><a href="https://www.facebook.com/Arsenal/"><img src="facebook.png" /></a></li>
+				<li><a href="https://twitter.com/Arsenal"><img src="twitter.png" /></a></li>
+				<li><a href="https://www.youtube.com/arsenal"><img src="youtube.png" /></a></li>
+				<li><a href="https://plus.google.com/+arsenal/posts"><img src="googleplus.png" /></a></li>
+			</ul>
+		</section>
+		<section>
+		<img src = "Arsenal.png"/></li>
+	</footer>
+	<footer class="second">
+		<p> The Arsenal Hub 2015</p>
+	</footer>
+	
+<script>
+	$('.handle').on('click', function(){
+		$('nav ul').toggleClass('showing')
+		});
+		
+</script>
+</body>
+</html>
